@@ -12,7 +12,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 let teamMembers = [];
 
 function app() {
-  function createManager(params) {
+  function createManager() {
     inquirer
       .prompt([
         {
